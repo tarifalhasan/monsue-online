@@ -8,11 +8,20 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        about_bg: 'url("/about_bg.png")',
+        hero_bg: 'url("/hero_bg.png")',
+      },
+      colors: {
+        skin: {
+          'dark-600': '#323232',
+          'cyan-500': '#80EEE9',
+        },
+      },
+      fontFamily: {
+        quicksant: ['var(--font-quicksant)'],
+        gilroy: ['var(--font-gilroy)'],
       },
     },
   },
   plugins: [],
-}
+};

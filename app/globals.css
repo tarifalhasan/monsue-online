@@ -17,11 +17,31 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #fff;
+  color: #000;
+}
+@layer components {
+  .heading {
+    @apply text-[2.875em] font-gilroy text-center py-6 lg:py-10;
+  }
+  .active-card {
+    border-radius: 15px;
+    background: #f9fff9;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  }
+  .shadow-base {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  .btn_primary {
+    @apply bg-[#02726F] px-10 text-white  py-2.5 rounded-full font-normal font-quicksant text-lg;
+  }
+  .container {
+    @apply px-5 sm:px-7 lg:px-10;
+  }
+}
+
+@layer utilities {
+  .filter-base {
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.15));
+  }
 }
