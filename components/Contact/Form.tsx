@@ -68,7 +68,7 @@ const Form = () => {
           />
         </div>
         <ReCAPTCHA
-          sitekey="6LdR6CknAAAAAIMCam6ObZe922Qq2LkjVDD42qgD"
+          sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
           onChange={onChange}
         />
         ,
