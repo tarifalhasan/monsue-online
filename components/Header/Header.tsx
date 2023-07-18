@@ -21,7 +21,7 @@ const Navbar = () => {
           {NavLinks.map((data, i) => (
             <li key={i}>
               <Link
-                className=" text-lg text-skin-dark-600  font-normal"
+                className="  transition-colors duration-300 hover:text-[#00F496] text-lg font-quicksant text-skin-dark-600  font-normal"
                 href={data.href}
                 aria-label={data.lebel}
               >

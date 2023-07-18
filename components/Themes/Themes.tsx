@@ -4,7 +4,7 @@ import React from 'react';
 
 const Themes = () => {
   return (
-    <div className=" container mx-auto">
+    <div id="themes" className=" container mx-auto">
       <h2 className=" heading">Choose Theme </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-16">
         {ThemesData.map((data, index) => (
