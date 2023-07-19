@@ -86,6 +86,6 @@ export const ServicesData = [
     name: 'Responsive',
     icon: responsive,
     des: `Templates: In today's mobile-first world, having a responsive website is essential. Our responsive templates are designed to look great on any device, from smartphones to desktops. With a mobile-friendly design, your website will be accessible to all your visitors, regardless of the device they're using.`,
-    active: false,
+    active: true,
   },
 ];

@@ -5,7 +5,6 @@ import { Quicksand } from 'next/font/google';
 import localFont from 'next/font/local';
 
 import MobileMenu from '@/components/Header/MobileHeader';
-import Head from 'next/head';
 
 const gilroy = localFont({
   src: './fonts/Gilroy-Bold.ttf',

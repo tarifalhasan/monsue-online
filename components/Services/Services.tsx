@@ -5,7 +5,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 
 const Services = () => {
-  const [hoveredBlock, setHoveredBlock] = useState('Customizable');
+  const [hoveredBlock, setHoveredBlock] = useState(`Customizable`);
 
   return (
     <div className="container mx-auto py-5">
@@ -14,7 +14,7 @@ const Services = () => {
         {ServicesData.map(data => (
           <div
             className={`  space-y-2.5 py-10 px-5 lg:px-10 ${
-              hoveredBlock === data.name ? 'active-card' : ''
+              data.active ? 'active-card' : ''
             }`}
             onMouseEnter={() => setHoveredBlock(data.name)}
             onMouseLeave={() => setHoveredBlock('')}
