@@ -29,7 +29,7 @@ const Footer = () => {
 
           <form>
             <div>
-              <h2 className=" text-2xl text-center uppercase font-gilroy">
+              <h2 className=" py-2 text-2xl text-center uppercase font-gilroy">
                 NewsLetter{' '}
               </h2>
               <p className="text-sm py-2 text-center font-quicksant text-skin-dark-600">
