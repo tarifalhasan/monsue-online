@@ -25,7 +25,7 @@ const MobileMenu = () => {
         </button>
       </div>
       <div
-        className={` fixed bg-[#2D5199]  border-navbar-border border mobile_navbar 2xl:px-0 px-4 pt-6 w-full h-full   ${
+        className={` fixed   bg-skin-dark-600  mobile_navbar 2xl:px-0 px-4 pt-6 w-full h-full   ${
           isOpen ? 'right-0' : 'right-full'
         }  z-50 top-0 `}
       >

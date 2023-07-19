@@ -74,7 +74,7 @@ export const ServicesData = [
     name: 'Simple',
     icon: easyIcon,
     des: `Our simple templates make it easy to create a website for your mosque quickly. Choose from a range of pre-designed themes and get started right away. We also provide hosting support`,
-    active: false,
+    active: true,
   },
   {
     name: 'Customizable',
